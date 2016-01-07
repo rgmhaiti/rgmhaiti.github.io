@@ -10,9 +10,9 @@ gems: [jekyll-paginate]
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'RGM Haiti - Rap Kreyol Radio'
+title:            'RGM Haiti Radio'
 tagline:          'by Rich Gand Media'
-description:      'Rap Kreyol Online Radio by Gandhi'
+description:      "Haiti's Rap Kreyol Online Radio by Gandhi"
 url:              'http://127.0.0.1:4000/'
 baseurl:          ''
 
@@ -33,7 +33,7 @@ navigation:
 
 
 # Author Details
-author:         'Abdel Raoof Olakara'
+author:         'Kenold Beauplan'
 
 #Social Media links (Use complete URL except for email)
 dribbble:
