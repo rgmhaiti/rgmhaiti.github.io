@@ -24,10 +24,8 @@ description: Home Page for RGM Haiti Radio
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts offset:1 limit:1 %}
 				<a href="{{post.url}}" title="Recent Article">
-					<div class="tile green">
-						<h3 class="title">Recent Article</h3>
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+					<div class="tile green">						
+						<p><script src="https://embed.radio.co/player/b0bb664.js"></script></p>
 					</div>
 				</a>
 				{% endfor %}
