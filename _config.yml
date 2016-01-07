@@ -13,7 +13,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'RGM Haiti Rap Kreyol by Rich Gand Media'
 tagline:          'Rap Kreyol Online Radio'
 description:      'Rap Kreyol Online Radio by Gandhi'
-url:              'http://www.rgmhaiti.com'
+url:              'http://localhost:4000/'
 baseurl:          ''
 
 # Navigation
