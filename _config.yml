@@ -11,8 +11,8 @@ permalink:        /blog/:year/:month/:day/:title
 
 # Setup
 title:            'RGM Haiti'
-tagline:          "Haiti's #1 Rap Kreyol Online Radio by Rich Gand Media"
-description:      "Haiti's #1 Rap Kreyol Radio"
+tagline:          "Haiti's #1 Rap Kreyol Online Radio"
+description:      "Haiti's #1 Rap Kreyol Radio  by Rich Gand Media"
 url:              'http://rgmhaiti.com/'
 baseurl:          ''
 
