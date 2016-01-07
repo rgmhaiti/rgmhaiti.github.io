@@ -1,7 +1,7 @@
 .li8-green, .green, .drk-green,
 .magenta, .li8-purple, .purple,
 .darken, .teal, .blue, .drk-blue,
- .red, .orange {
+ .red, .b-red, .orange {
     color: #fff;
 }
 
@@ -64,6 +64,11 @@
 
 .red {
     background: #AC193D;
+    border: 1px solid #8B162B;
+}
+
+.b-red {
+    background: #cc181e;
     border: 1px solid #8B162B;
 }
 
