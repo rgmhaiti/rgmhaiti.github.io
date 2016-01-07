@@ -5,11 +5,11 @@
                   <div>{% include svg-icons.html %}</div>
             {% endif %} -->
             &copy; {{ site.time | date: '%Y' }} - {{site.author}}. All rights reserved<br/>
-            Built using 
+            
             {% if page.theme And page.theme != "" And page.theme != nil %}
-            Created with <a class="{{page.theme}}-link" href="http://jekyllrb.com/">Jekyll</a>
+            Built with <a class="{{page.theme}}-link" href="http://jekyllrb.com/">Jekyll</a>
             {% else %}
-            Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> | Webmaster <a href="http://twitter.com/kenoldb" target="_blank">@kenoldb</a>
+            Built with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> | Webmaster <a href="http://twitter.com/kenoldb" target="_blank">@kenoldb</a>
             {% endif %}
       </div>
 </footer>
