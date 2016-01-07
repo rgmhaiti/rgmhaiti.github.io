@@ -13,7 +13,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'RGM Haiti'
 tagline:          'by Rich Gand Media'
 description:      "Haiti's #1 Rap Kreyol Radio"
-url:              'http://rgmhaiti.github.io/'
+url:              'http://rgmhaiti.com/'
 baseurl:          ''
 
 # Navigation
