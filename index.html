@@ -22,13 +22,13 @@ description: Home Page for RGM Haiti Radio
 				</a>
 		    </div>
 			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts offset:1 limit:1 %}
+				
 				<a href="{{post.url}}" title="Recent Article">
 					<div class="tile green">						
-						<p><script src="https://embed.radio.co/player/b0bb664.js"></script></p>
+						<p><script src="https://embed.radio.co/player/8c79ed5.js"></script></p>
 					</div>
 				</a>
-				{% endfor %}
+				
 			</div>
 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="feed.xml" title="RSS Feed" class="tile orange">
@@ -40,15 +40,14 @@ description: Home Page for RGM Haiti Radio
 		<div class="row">
 
 			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts offset:1 limit:1 %}
+				
 				<a href="{{post.url}}" title="Recent Article">
-					<div class="tile green">
-						<h3 class="title">Recent Article</h3>
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+					<div class="tile green">						
+						<p> <a class="twitter-timeline" href="https://twitter.com/RGMHaiti" data-widget-id="684923298501783553">Tweets by @RGMHaiti</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 					</div>
 				</a>
-				{% endfor %}
+				
 			</div>
 
 
