@@ -41,26 +41,18 @@ description: Home Page for RGM Haiti Radio
 
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				
-				<a href="{{post.url}}" title="Recent Article">
 					<div class="tile green">						
 						<p> <a class="twitter-timeline" href="https://twitter.com/RGMHaiti" data-widget-id="684923298501783553">Tweets by @RGMHaiti</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 					</div>
-				</a>
 				
 			</div>
 
 
 			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts limit:1 %}
-				<a href="{{post.url}}" title="Latest Article">
-					<div class="tile red">
-						<h3 class="title">Latest Article</h3>
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
-					</div>
-				</a>
-				{% endfor %}
+				<div class="tile red">
+					<p><div class="fb-page" data-href="https://www.facebook.com/Richgandmedia" data-tabs="timeline" data-height="70" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Richgandmedia"><a href="https://www.facebook.com/Richgandmedia">Rich Gand Media</a></blockquote></div></div></p>
+				</div>
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
