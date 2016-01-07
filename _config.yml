@@ -10,9 +10,9 @@ gems: [jekyll-paginate]
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'RGM Haiti Radio'
+title:            'RGM Haiti'
 tagline:          'by Rich Gand Media'
-description:      "Haiti's Rap Kreyol Online Radio by Gandhi"
+description:      "Haiti's #1 Rap Kreyol Radio"
 url:              'http://127.0.0.1:4000/'
 baseurl:          ''
 
