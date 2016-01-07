@@ -10,10 +10,10 @@ gems: [jekyll-paginate]
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Jekyll Metro'
-tagline:          'A Metro theme for Jekyll'
-description:      'A Sample blog using Jekyll Metro'
-url:              'http://192.168.1.11:4000'
+title:            'RGM Haiti Rap Kreyol by Rich Gand Media'
+tagline:          'Rap Kreyol Online Radio'
+description:      'Rap Kreyol Online Radio by Gandhi'
+url:              'http://www.rgmhaiti.com'
 baseurl:          ''
 
 # Navigation
@@ -38,16 +38,16 @@ author:         'Abdel Raoof Olakara'
 #Social Media links (Use complete URL except for email)
 dribbble:
 email:
-facebook:       'https://www.facebook.com/olakara'
+facebook:       'https://www.facebook.com/Richgandmedia'
 flickr:
-github:         'https://github.com/olakara'
-gplus:          'https://plus.google.com/100425464897246255887/'
-instagram:
+github:         ''
+gplus:          ''
+instagram:      'https://www.instagram.com/rgmhaiti/'
 pinterest:
-linkedin:       'https://ae.linkedin.com/in/olakara/'
+linkedin:       ''
 rss:
-stackoverflow:  'http://stackoverflow.com/users/185655/abdel-raoof'
-twitter:        'https://twitter.com/olakara'
+stackoverflow:  ''
+twitter:        'https://twitter.com/rgmhaiti'
 
 # Google Analytics
 gahandler: 'UA-52149651-1'
