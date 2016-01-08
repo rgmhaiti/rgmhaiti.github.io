@@ -43,6 +43,11 @@
 	border: 1px solid #fff;
 }
 
+/* High box */
+.hpx {
+  height: 450px;
+}
+
 .tile > .title {
   margin-top: 0px;
 }
