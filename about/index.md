@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hi, I am Abdel Raoof Olakara
-description: About Me page of Abdel Raoof
+title: About RGM Haiti Radio
+description: RGM Haiti is a 24/7 online Rap Creole radio
 theme: purple
 ---
 
