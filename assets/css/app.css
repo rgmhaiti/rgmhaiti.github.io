@@ -89,3 +89,13 @@
 .space-bottom {
   margin-bottom:25px;
 }
+
+.price {
+  padding-left: 10px;
+}
+
+.buy a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #cc181e;
+}
