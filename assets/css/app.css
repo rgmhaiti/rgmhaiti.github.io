@@ -105,3 +105,14 @@
   text-transform: uppercase;
   color: #cc181e;
 }
+
+footer.row {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.fb-page, 
+.fb-page span, 
+.fb-page span iframe[style] { 
+    width: 100% !important; 
+}
